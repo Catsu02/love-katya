@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Для тебя ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(135deg,#0f172a,#1f2937);
+      font-family:system-ui,-apple-system,Segoe UI,Arial;
+      color:#fff;
+    }
+    .card{
+      max-width:700px;
+      background:rgba(255,255,255,0.08);
+      padding:28px;
+      border-radius:20px;
+      backdrop-filter:blur(10px);
+      box-shadow:0 10px 40px rgba(0,0,0,.4);
+    }
+    h1{margin-top:0;font-size:32px}
+    p{line-height:1.6;font-size:18px}
+    button{
+      margin-top:20px;
+      padding:12px 18px;
+      font-size:16px;
+      border:none;
+      border-radius:14px;
+      cursor:pointer;
+      background:#ff4d6d;
+      color:white;
+      font-weight:700;
+    }
+    .hidden{display:none}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Котуська, это для тебя ❤️</h1>
+
+    <p>
+      Я сделал эту маленькую страницу только для тебя моя любимая.
+      Чтобы ты знала твоу появление в моей жизни одно из самых важных и лучших событий.
+    </p>
+
+    <p>
+      Спасибо тебе за эти 141 дня. За эмоции, за тепло, за заботу и за то,
+      что рядом с тобой я хочу становиться лучше.
+    </p>
+
+    <p>
+      Мне не нужны идеальные слова мне нужна ты.
+      Здесь и сейчас. И каждый день.
+    </p>
+
+    <button onclick="document.getElementById('secret').classList.toggle('hidden')">
+      Нажми сюда
+    </button>
+
+    <p id="secret" class="hidden">
+      Я люблю тебя сильнее, чем умею сказать словами ❤️
+    </p>
+  </div>
+</body>
+</html>
